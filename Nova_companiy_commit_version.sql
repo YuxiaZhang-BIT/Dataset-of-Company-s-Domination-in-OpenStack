@@ -1,0 +1,66 @@
+-- MySQL dump 10.13  Distrib 5.7.12, for osx10.9 (x86_64)
+--
+-- Host: 127.0.0.1    Database: Nova
+-- ------------------------------------------------------
+-- Server version	5.7.12
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `companiy_commit_version`
+--
+
+DROP TABLE IF EXISTS `companiy_commit_version`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `companiy_commit_version` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `company` varchar(45) DEFAULT NULL,
+  `a` int(11) DEFAULT NULL,
+  `b` int(11) DEFAULT NULL,
+  `c` int(11) DEFAULT NULL,
+  `d` int(11) DEFAULT NULL,
+  `e` int(11) DEFAULT NULL,
+  `f` int(11) DEFAULT NULL,
+  `g` int(11) DEFAULT NULL,
+  `h` int(11) DEFAULT NULL,
+  `i` int(11) DEFAULT NULL,
+  `j` int(11) DEFAULT NULL,
+  `k` int(11) DEFAULT NULL,
+  `l` int(11) DEFAULT NULL,
+  `m` int(11) DEFAULT NULL,
+  `n` int(11) DEFAULT NULL,
+  `o` int(11) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=14 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `companiy_commit_version`
+--
+
+LOCK TABLES `companiy_commit_version` WRITE;
+/*!40000 ALTER TABLE `companiy_commit_version` DISABLE KEYS */;
+INSERT INTO `companiy_commit_version` VALUES (1,'Rackspace',203,264,587,1765,618,346,277,361,162,154,96,76,39,57,4),(2,'Red Hat',0,0,0,0,109,248,219,245,368,395,357,223,281,257,129),(3,'IBM',0,0,0,0,1,48,220,422,247,386,329,235,240,251,170),(4,'Nebula',55,174,112,107,73,17,4,11,7,32,5,1,0,0,0),(5,'Mirantis',0,0,0,34,2,6,4,180,31,64,179,95,136,239,75),(6,'Intel',2,0,0,0,14,28,23,59,83,50,122,100,144,217,54),(7,'VMware',0,76,51,57,62,18,35,93,160,168,146,99,49,26,6),(8,'HP',0,2,13,0,32,28,49,77,50,48,22,12,2,3,0),(9,'independent',221,209,159,269,67,113,149,153,127,127,129,102,105,147,44),(10,'AT&T',0,7,8,6,0,2,1,1,0,0,0,0,2,28,11),(11,'SUSE',0,0,0,0,1,17,6,23,15,11,5,4,11,9,5),(12,'Canonical',0,0,0,0,51,85,69,53,9,12,3,1,0,0,1),(13,'Huawei',0,0,0,0,0,0,0,4,38,22,16,28,16,22,17);
+/*!40000 ALTER TABLE `companiy_commit_version` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2017-09-03 18:13:33
